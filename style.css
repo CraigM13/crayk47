@@ -1,0 +1,170 @@
+body {
+    text-align: center;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    text-align: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.category-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.revival-story {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.revival-story img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    color: black;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ddd; 
+}
+
+.search-container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer; 
+}
+
+.frame img {
+    margin: 0 10px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+
+.left-align {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-container div {
+    text-align: center;
+}
+
+
+.banner {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+
+.image-grid img {
+    max-width: 200px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .right.logo {
+        max-width: 200px;
+    }
+}
+
+body {
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.container {
+    text-align: center;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+.footer {
+    background-color: white;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clear: both; 
+}
+
+
+.signup-button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(30, 179, 30);
+}
